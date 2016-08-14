@@ -102,6 +102,7 @@ static void SetMetadata(const char* argv0, const char* instance, bool testing) {
  *
  */
 static void InitLogging() {
+  // what does this do ?
   // set the log directory
   gExecMeta.setLogDirectory(gExecMeta.unitTest() ? constTestLogsDirectory : constLogsDirectory);
 
